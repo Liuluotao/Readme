@@ -8,11 +8,11 @@ The code for paper " Multi-view Contrastive Learning Hypergraph Neural Network f
 
 The repository is organized as follows:
 
-- "Data/" contains the datasets used in the paper;
-- "Utils/" contains the processing functions and tools (e.g., negative sampling strategy functions....);
-- "main_cv_hyper_graph.py" contains the training and testing code of 5-CV  experiments on datasets;
-- "main_indep_hyper_graph.py" contains the training and testing code of independent test experiments on datasets;
-- "model_hyper_graph.py" contains the three body parts of the model, i.e., BioEncoder, HgnnEncoder, and Decoder.
+- 'Data/' contains the datasets used in the paper;
+- 'Utils/' contains the processing functions and tools (e.g., negative sampling strategy functions....);
+- 'main_cv_hyper_graph.py' contains the training and testing code of 5-CV  experiments on datasets;
+- 'main_indep_hyper_graph.py' contains the training and testing code of independent test experiments on datasets;
+- 'model_hyper_graph.py' contains the three body parts of the model, i.e., BioEncoder, HgnnEncoder, and Decoder.
 
 ## 2.Dependencies
 
@@ -28,6 +28,6 @@ The repository is organized as follows:
 
 Here we provide two examples of using MCHNN to run 5-CV experiments and independent test experiments, execute the following command:
 
-"python main_cv_hyper_graph.py --hypergraph_loss_ratio 0.8 --lr 0.005"
+'python main_cv_hyper_graph.py --hypergraph_loss_ratio 0.8 --lr 0.005'
 
-"python main_indep_hyper_graph.py --hypergraph_loss_ration 0.8 --lr 0.005"
+'python main_indep_hyper_graph.py --hypergraph_loss_ration 0.8 --lr 0.005'
